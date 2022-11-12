@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to JS</title>
+    <h1>Arithmetic</h1>
+</head>
+<body>
+    
+<script>
+    function add(){
+     x =parseInt (fi.tb1.value)
+     y =parseInt (fi.tb2.value)
+     z =x+y
+    document.getElementById('tb3').value=z;
+    }
+
+     function sub(){
+     z =x-y
+     document.getElementById('tb3').value=z;  
+     }
+
+     function mul(){
+     z =x*y
+    document.getElementById('tb3').value=z;  
+     }
+
+     function div(){
+     z =x/y
+     document.getElementById('tb3').value=z;  
+     }
+
+     function mod(){
+     z =x%y
+     document.getElementById('tb3').value=z;  
+     }
+</script>
+</head>
+
+<body>
+    <form id="f1">
+        Enter 1st value : <input type="text" id="tb1"><br>
+        Enter 1st value : <input type="text" id="tb2"><br>
+        <button type="button" onclick="add"()>Addition</button>
+        <button type="button" onclick="sub"()>Subtraction</button>
+        <button type="button" onclick="mul"()>Multiplication</button>
+        <button type="button" onclick="div"()>Division</button>
+        <button type="button" onclick="mod"()>Modulo</button><br>
+
+        Result<input type="text" id="tb3">
+</form>
+</body>
+</html>
